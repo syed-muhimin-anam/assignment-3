@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,10 @@
     <!-- daisyUi CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <!-- tailwind CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -14,18 +18,89 @@
         theme: {
           extend: {
             colors: {
-              clifford: '#da373d',
+             "color-primary": '#abef5f',
             }
           }
         }
       }
     </script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/a8ca392e6f.js" crossorigin="anonymous"></script>
+    <!-- style -->
+   <style>
+     .manrope-font {
+      font-family: "Manrope", sans-serif;
+      font-optical-sizing: auto;
+    }
+   </style>
 </head>
-<body>
+
+
+<body class="manrope-font">
     <!-- header section############################################################################################### -->
-    <header class="content"></header>
+    <header class="container mx-auto">
+        <!-- navbar***************************************************************************** -->
+         <div class="mt-5">
+            <div class="navbar bg-base-100 lg:flex justify-between">
+              <!-- first part -->
+              <div class="w-full navbar-start  flex justify-between lg:w-auto  ">
+                <div class="flex  items-center">
+                  <div class="w-8 h-8 rounded-full bg-color-primary flex justify-center items-center"><i class="fa-solid fa-arrow-right -rotate-45 text-2xl"></i></div>
+                <div><a class="btn btn-ghost text-3xl font-extrabold  p-2  lg:text-4xl lg:font-extrabold">Rintario</a></div>
+              </div>
+                <!-- hidden part -->
+              <div class="dropdown ">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    class="inline-block h-5 w-5 stroke-current ">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h16M4 18h16"></path>
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li class="text-[#737373]"><a>Home</a></li>
+                  <li class="text-[#737373]"><a>Services</a></li>
+                  <li class="text-[#737373]"><a>Portfolio</a></li>
+                  <li class="text-[#737373]"><a>Blogs</a></li>
+                  <li class="text-[#737373]"><a>Contact Us</a></li>
+                </ul>
+              </div>
+              
+            </div>
+
+             <!--middle part  -->
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li class="font-bold"><a>Home</a></li>
+                    <li class="text-[#737373]"><a>Services</a></li>
+                    <li class="text-[#737373]"><a>Portfolio</a></li>
+                    <li class="text-[#737373]"><a>Blogs</a></li>
+                    <li class="text-[#737373]"><a>Contact Us</a></li>
+                  </ul>
+                </div>
+                <!-- last part -->
+                <div class="hidden navbar-end gap-x-6 lg:block lg:flex  w-auto">
+                    <div class=" w-12 h-12 bg-gray-300 rounded-full flex justify-center items-center"><i class="fa-solid fa-magnifying-glass"></i></div>
+                    <div class="  w-12 h-12 bg-gray-300 rounded-full flex justify-center items-center"><i class="fa-solid fa-cart-shopping"></i></div>
+                  <a class="btn bg-color-primary rounded-3xl text-xl font-extrabold ">Book Consult<div class="w-5 h-5 rounded-full bg-black flex justify-center items-center"><i class="fa-solid fa-arrow-right -rotate-45 text-color-primary text-sm"></i></div></a>
+                </div>
+              </div>
+         </div>
+    </header>
+
+
     <!-- main section################################################################################################# -->
     <main></main>
+
+    
     <!-- footer section############################################################################################### -->
      <footer></footer>
     
