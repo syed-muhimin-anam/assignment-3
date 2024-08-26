@@ -38,13 +38,13 @@
 <body class="manrope-font">
 
      <!-- header section############################################################################################### -->
-     <header class="container mx-auto  ">
+     <header class="container mx-auto  bg-[#FFFFFF]">
       <!-- navbar***************************************************************************** -->
        <div class="pt-5">
-          <div class="navbar bg-base-100 lg:flex justify-between bg-[#F8F8F8]">
+          <div class="navbar bg-base-100 lg:flex justify-between">
             <!-- first part -->
             <div class="w-full navbar-start  flex justify-between lg:w-auto  ">
-              <div class="flex  items-center">
+              <div class="flex  items-center justify-center">
                 <div class="w-8 h-8 rounded-full bg-color-primary flex justify-center items-center"><i class="fa-solid fa-arrow-right -rotate-45 text-2xl"></i></div>
               <div><a class="btn btn-ghost text-3xl font-extrabold  p-2  lg:text-4xl lg:font-extrabold">Rinterio</a></div>
             </div>
@@ -88,8 +88,8 @@
               </div>
               <!-- last part -->
               <div class="hidden navbar-end gap-x-6 lg:block lg:flex  w-auto">
-                  <div class=" w-12 h-12 bg-white rounded-full flex justify-center items-center"><i class="fa-solid fa-magnifying-glass"></i></div>
-                  <div class="  w-12 h-12 bg-white rounded-full flex justify-center items-center"><i class="fa-solid fa-cart-shopping"></i></div>
+                  <div class=" w-12 h-12 bg-white rounded-full flex justify-center items-center  border-2"><i class="fa-solid fa-magnifying-glass"></i></div>
+                  <div class="  w-12 h-12 bg-white rounded-full flex justify-center items-center border-2"><i class="fa-solid fa-cart-shopping"></i></div>
                 <a class="btn bg-color-primary rounded-3xl text-xl font-extrabold ">Book Consult<div class="w-5 h-5 rounded-full bg-black flex justify-center items-center"><i class="fa-solid fa-arrow-right -rotate-45 text-color-primary text-sm"></i></div></a>
               </div>
             </div>
@@ -106,42 +106,43 @@
 
 
     <!-- main section################################################################################################# -->
-    <main class="container mx-auto">
+    <main class="my-32">
 
-      <!-- thoughtful design section  ################################################################################################-->
+      <div class="bg-[#F4F4F4] pb-20 pt-8">
+        <!-- thoughtful design section  ################################################################################################-->
        <!-- main parent card -->
-       <div class="hero my-24">
+       <div class="hero mb-24 container mx-auto ">
         <div class="hero-content flex-col lg:flex-row lg:gap-10">
        <div>
         <!-- title -->
          <div class="w-full text-center lg:text-start space-y-5">
           <img class="-ml-16 -mt-8 hidden lg:block" src="assets/Vector.png" alt="">
-          <button class="btn rounded-3xl"><i class="fa-solid fa-arrow-right text-2xl"></i> About us</button>
+          <button class="btn rounded-3xl bg-white"><i class="fa-solid fa-arrow-right text-2xl"></i> About us</button>
           <h1 class=" text-3xl font-bold">We design thoughtful, liveable spaces</h1>
           <p class="text-text-color">The barn house captivates with its blend of rustic charm and  modern sophistication, featuring weathered wood, sleek metal accents.</p>
          </div>
          <!-- card 1 commercial -->
-        <div class=" p-5 ">
-          <div class="flex gap-x-4">
+        <div class=" p-5 bg-white rounded-xl my-5">
+          <div class="flex gap-x-4 items-center">
             <div><img
               src="assets/commercial.png"
               class="max-w-sm rounded-lg shadow-2xl" />
             </div>
             <div>
-              <h1 class=" font-extrabold">Commercial</h1>
-              <p class="py-6">The barn house captivates with its blend of rustic charm and modern.</p>
+              <h1 class=" font-extrabold mb-2">Commercial</h1>
+              <p class="">The barn house captivates with its blend of rustic charm and modern.</p>
             </div>
           </div>
         </div>
         <!-- card 2 residentcial -->
-        <div class=" p-5">
+        <div class=" p-5 bg-white rounded-xl">
           <div class="flex gap-x-4">
             <div><img
               src="assets/residential.png"
               class="max-w-sm rounded-lg shadow-2xl" /></div>
             <div>
-              <h1 class="font-extrabold">Residential</h1>
-              <p class="py-6">The barn house captivates with its blend of rustic charm and modern.</p>
+              <h1 class="font-extrabold mb-2">Residential</h1>
+              <p class="">The barn house captivates with its blend of rustic charm and modern.</p>
             </div>
           </div>
         </div>
@@ -154,11 +155,11 @@
        </div>
         </div>
       </div>
-
+      
       <!-- work process section ############################################################################################## -->
-       <div>
+       <div class="container mx-auto">
         <div class="text-center space-y-5">
-          <button class="btn rounded-3xl"><i class="fa-solid fa-arrow-right text-2xl"></i>How We Works</button>
+          <button class="btn rounded-3xl bg-white"><i class="fa-solid fa-arrow-right text-2xl"></i>How We Works</button>
           <h1 class=" text-3xl font-bold">Our Works Process</h1>
         <p class="text-text-color">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
         </div>
@@ -190,9 +191,9 @@
           </div>
         </div>
        </div>
-
+      </div>
        <!-- Our Latest Portfolio section ###################################################################################### -->
-        <section class="my-24">
+        <section class="my-24 container mx-auto">
           <!-- title -->
           <div class="text-center">
           <button class="btn rounded-3xl mb-4 bg-[#ABEF5F33]"><i class="fa-solid fa-arrow-right text-2xl"></i>Explore our Latest works</button>
@@ -257,15 +258,101 @@
            </div>
         </section>
 
-       
+        <!-- extra section ###############################################################################################-->
+        
+             <section class="my-14 container mx-auto">
+              <div class="text-center mb-14">
+                <h1 class="text-2xl font-bold lg:text-4xl mb-6">Our Top Engineers</h1>
+                <P class="text-sm text-text-color">We provide worlds best engineer for your work. They are very experienced well trained and graduated from worlds best engineering institute.</P>
+              </div>
+              <div class="grid grid-cols-1 lg:grid lg:grid-cols-4 lg:gap-6 gap-y-8">
+                <!-- engineer-1 -->
+                <div class="card bg-base-100 shadow-xl">
+                  <figure>
+                    <img
+                      src="assets/engeeners/Colin-Walsh.jpg"
+                      alt="engineer" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">Syed Muhimin Anam</h2>
+                    <h3><i class="fa-solid fa-arrow-right"></i> Bangladesh</h3>
+                    <h3><i class="fa-solid fa-arrow-right"></i> Civil Engineer</h3>
+                    <h3><i class="fa-solid fa-arrow-right"></i> 45 years old</h3>
+                    <h3><i class="fa-solid fa-arrow-right"></i> 5 Projects experience</h3>
+                    <div class="card-actions mt-3">
+                      <button class="btn bg-[#ABEF5F80] rounded-3xl text-lg font-bold w-full lg:px-7">See More <div class="w-7 h-7  rounded-full bg-black flex justify-center items-center bg-color-primary"><i class="fa-solid fa-arrow-right -rotate-45  text-sm text-black"></i></div></button>
+                    </div>
+                  </div>
+                </div>
 
+                 <!-- engineer-2 -->
+                 <div class="card bg-base-100 shadow-xl">
+                  <figure>
+                    <img
+                      src="assets/engeeners/Candice-Lu.jpg"
+                      alt="engineer" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">Natasha</h2>
+                    <h3><i class="fa-solid fa-arrow-right"></i> Civil Engineer</h3>
+                    <h3><i class="fa-solid fa-arrow-right"></i> Germany</h3>
+                    <h3><i class="fa-solid fa-arrow-right"></i> 27 years old</h3>
+                    <h3><i class="fa-solid fa-arrow-right"></i> 7 Projects experience</h3>
+                    <div class="card-actions mt-3">
+                     <button class="btn bg-[#ABEF5F80] rounded-3xl text-lg font-bold w-full lg:px-7">See More <div class="w-7 h-7  rounded-full bg-black flex justify-center items-center bg-color-primary"><i class="fa-solid fa-arrow-right -rotate-45  text-sm text-black"></i></div></button>
+                    </div>
+                  </div>
+                </div>
+
+                
+                 <!-- engineer-3 -->
+                 <div class="card bg-base-100  shadow-xl">
+                  <figure>
+                    <img
+                      src="assets/engeeners/Joanna-Riley.jpg"
+                      alt="engineer" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">Lucy Nova</h2>
+                    <h3><i class="fa-solid fa-arrow-right"></i> Canada</h3>
+                    <h3><i class="fa-solid fa-arrow-right"></i> Civil Engineer</h3>
+                    <h3><i class="fa-solid fa-arrow-right"></i> 38 years old</h3>
+                    <h3><i class="fa-solid fa-arrow-right"></i> 4 Projects experience</h3>
+                    <div class="card-actions mt-3">
+                     <button class="btn bg-[#ABEF5F80] rounded-3xl text-lg font-bold w-full lg:px-7">See More <div class="w-7 h-7  rounded-full bg-black flex justify-center items-center bg-color-primary"><i class="fa-solid fa-arrow-right -rotate-45  text-sm text-black"></i></div></button>
+                    </div>
+                  </div>
+                </div>
+
+                 <!-- engineer-4 -->
+                 <div class="card bg-base-100 shadow-xl">
+                  <figure>
+                    <img class=""
+                      src="assets/engeeners/Tom-Montgomery-1.jpg"
+                      alt="engineer" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">Justin Chris </h2>
+                    <h3><i class="fa-solid fa-arrow-right"></i> American</h3>
+                    <h3><i class="fa-solid fa-arrow-right"></i> Architect Engineer</h3>
+                    <h3><i class="fa-solid fa-arrow-right"></i> 35 years old</h3>
+                    <h3><i class="fa-solid fa-arrow-right"></i> 6 Projects experience</h3>
+                    <div class="card-actions mt-3">
+                      <button class="btn bg-[#ABEF5F80] rounded-3xl text-lg font-bold w-full lg:px-7">See More <div class="w-7 h-7  rounded-full bg-black flex justify-center items-center bg-color-primary"><i class="fa-solid fa-arrow-right -rotate-45  text-sm text-black"></i></div></button>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+             </section>
     </main>
 
 
     <!-- footer section############################################################################################### -->
      <footer>
        <!-- lets contact section ######################################################################################-->
-       <div class="lg:p-28 bg-cover bg-no-repeat space-y-8" style="background-image: url(assets/bg.jpg);">
+       <div class="lg:p-28 bg-cover bg-no-repeat space-y-8 " style="background-image: url(assets/bg.jpg);">
           
         <!-- title -->
          <div class="text-center space-y-4">
@@ -311,15 +398,9 @@
             <div><a class="btn btn-ghost text-white text-3xl font-extrabold  p-2  lg:text-4xl lg:font-extrabold">Rinterio</a></div>
           </div>
           <p class="text-[#737373]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
-          <!-- <div class="lg:flex lg:justify-between">
-            <p>Home</p>
-            <p>Services</p>
-            <p>Portfolio</p>
-            <p>Blogs</p>
-            <p>Contact Us</p>
-          </div> -->
-          <div class=" ">
-            <ul class="lg:flex lg:justify-between">
+          
+          <div>
+            <ul class="space-y-5 lg:flex lg:justify-between">
               <li class="text-[#737373]"><a>Home</a></li>
               <li class="text-[#737373]"><a>Services</a></li>
               <li class="text-[#737373]"><a>Portfolio</a></li>
